@@ -1,0 +1,63 @@
+.header {
+  padding: 20px 0;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.header__form {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+  width: 100%;
+}
+
+.header__form fieldset{
+  position: relative;
+  display: block;
+  flex-basis: 500px;
+}
+
+.header__form select {
+  flex-basis: 320px;
+}
+
+.header__form fieldset input,
+.header__form select {
+  display: block;
+  position: relative;
+  padding: 12px 20px;
+  font-size: 14px;
+  border: 1px solid #E6E6E6;
+  border-radius: 22px;
+}
+
+.header__form fieldset input {
+  width: 100%;
+  padding-right: 50px;
+}
+
+.header__search-btn {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.header__search select:after {
+  content: '';
+  display: block;
+  position: absolute;
+  background-image: url("../img/arrow.svg");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}

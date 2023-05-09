@@ -1,0 +1,25 @@
+.footer {
+  padding: 20px 0;
+}
+
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__text {
+  align-self: flex-end;
+}
+
+.footer__list {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer__text {
+  font-weight: 300;
+  font-size: 12px;
+  color: #212121;
+}
